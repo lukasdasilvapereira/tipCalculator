@@ -7,5 +7,5 @@ function calcule() {
     let tips = parseFloat(tip.value)
     let finale = billy * tips / 100
     let final = billy + finale
-    texto.textContent = final
+    texto.innerHTML +=  `${final}`
 }
